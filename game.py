@@ -16,7 +16,7 @@ with open("CYOA_game-token.json") as f:
 CLIENT_ID = secrets["clientId"]
 CLIENT_SECRET = secrets["secret"]
 ASTRA_DB_KEYSPACE = "database"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 
 auth_provider = PlainTextAuthProvider(CLIENT_ID, CLIENT_SECRET)
 cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
